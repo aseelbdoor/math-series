@@ -7,7 +7,6 @@
 ## How to initialize/run your application ?
 `python3 series/series.py`
 
-
 ## Tests
 How do you run tests?
 `pytest`
