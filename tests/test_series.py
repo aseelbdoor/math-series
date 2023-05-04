@@ -3,6 +3,7 @@ from series.series import fibonacci
 from series.series import lucas
 from series.series import sum_series
 
+
 def test_fibonacci():
     actual1=fibonacci(0)
     actual2=fibonacci(1)
@@ -24,6 +25,7 @@ def test_lucas():
     assert actual1==expected1 
     assert actual2==expected2 
     assert actual3==expected3
+
 
 def test_sum_series():
     actual1=sum_series(5)
